@@ -1,0 +1,12 @@
+version: '2'
+services:
+  web:
+    image: node
+    working_dir: /usr/src/app
+    command: node node_modules/nodemon/bin/nodemon.js webhello.js
+    volumes:
+      - .:/usr/src/app
+    ports:
+      - "80:8080"
+    environment:
+      NODE_ENV: development

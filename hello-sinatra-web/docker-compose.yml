@@ -1,0 +1,11 @@
+version: '2'
+services:
+  web:
+    image: erikap/ruby-sinatra
+    volumes:
+      - .:/usr/src/app
+    ports:
+      - "80:80"
+    environment:
+      MAIN_APP_FILE: webhello.rb
+      RACK_ENV: development

@@ -1,0 +1,25 @@
+{
+  "name": "hello-express-web",
+  "version": "1.0.0",
+  "description": "Demo web application",
+  "main": "webhello.js",
+  "dependencies": {
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "nodemon": "latest"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyberhobo/docker-for-development-demo.git"
+  },
+  "author": "Dylan Kuhn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cyberhobo/docker-for-development-demo/issues"
+  },
+  "homepage": "https://github.com/cyberhobo/docker-for-development-demo#readme"
+}
