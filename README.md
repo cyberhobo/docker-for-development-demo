@@ -4,7 +4,7 @@ This repo contains a few simple "hello world" projects, each with their own Dock
 
 ## Requirements
 
-You should be able to run these projects using [Docker community edition|https://store.docker.com/search?type=edition&offering=community].
+You should be able to run these projects using [Docker community edition](https://store.docker.com/search?type=edition&offering=community).
 
 Yes, the projects will run without the languages they are written in, or any other dependecies, installed on your machine. Yay.
 
