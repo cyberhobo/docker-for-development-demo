@@ -10,7 +10,7 @@ You should be able to run these projects using [Docker community edition](https:
 
 Yes, the projects will run without the languages they are written in, or any other dependecies, installed on your machine. Yay.
 
-[Docker Compose](https://docs.docker.com/compose/) is now part of Docker. All of this can be done without it, but it add convenience, especially for multiple containers. The example projects that include a `docker-compose.yml` file illustrate how it can work in development.
+[Docker Compose](https://docs.docker.com/compose/) is now part of Docker. All of this can be done without it, but it adds convenience, especially for multiple containers. The example projects that include a `docker-compose.yml` file illustrate how it can work in development.
 
 ## Workflow
 
