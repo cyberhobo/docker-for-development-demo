@@ -5,4 +5,4 @@ add_filter( 'the_title', function( $title, $id ) {
     return $title;
   }
   return 'Hello WordPress!';
-});
+}, 10, 2 );
